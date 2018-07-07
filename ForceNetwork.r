@@ -3,12 +3,12 @@ library(networkD3)
 nodes = data.frame("name" = 
                      c("TOTAL", "CASH", "POS", "P2P", "1OFF", "CASH", "POS", "P2P", "1OFF","CASH",
                        "POS", "P2P", "CASH","POS", "P2P","2OFF","CASH","POS","P2P","2OFF","CASH",
-					   "POS","P2P","2OFF","CASH","POS","P2P","2OFF","CASH","POS","P2P","2OFF",
+		       "POS","P2P","2OFF","CASH","POS","P2P","2OFF","CASH","POS","P2P","2OFF",
                        "CASH","POS","P2P","2OFF","CASH","POS","P2P","2OFF","CASH","POS","P2P",
                        "POS","CASH","POS","P2P","CASH","POS","P2P"),
                    nodes_radius =c(
                      900,300,300,300,50,50,50,50,50,50,50,50,50,50,50,10,10,10,10,10,10,10,10,10,
-					 10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10
+		     10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10
                    )) 
 
 links = as.data.frame(matrix(c(
